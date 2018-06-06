@@ -1,9 +1,12 @@
 module.exports = {
-    entry: __dirname + "/src/index.ts",
+    entry: {
+        router: __dirname + "/src/router.ts",
+        shim: __dirname + "/src/shim/index.ts"
+    },
     devtool: 'source-map',
     output: {
         path: __dirname + "/dist",
-        filename: "index.js",
+        filename: "[name].js",
         libraryTarget: "umd"
     },
     resolve: {

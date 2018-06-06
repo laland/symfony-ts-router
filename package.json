@@ -1,21 +1,42 @@
 {
-  "name": "@laland/fos-js-router",
+  "name": "symfony-ts-router",
   "version": "1.0.0",
-  "description": "Js router from FOSJsRoutingBundle",
-  "main": "./dist/index.js",
-  "types": "./dist/src/index.d.ts",
-  "repository": "git@github.com:laland/fos-js-router.git",
+  "description": "Typescript port of javascript router from FOSJsRoutingBundle",
+  "keywords": [
+    "symfony",
+    "typescript",
+    "router",
+    "fos",
+    "ts",
+    "FOSJsRoutingBundle",
+    "fos js router"
+  ],
+  "main": "./dist/router.js",
+  "types": "./dist/src/router.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laland/symfony-ts-router.git"
+  },
+  "bugs": "https://github.com/laland/symfony-ts-router/issues",
+  "homepage": "https://github.com/laland/symfony-ts-router#readme",
   "author": "Reznichenko Vladimir <laland@ya.ru>",
   "license": "MIT",
   "scripts": {
     "test": "jasmine-ts \"src/**/*.spec.ts\"",
-    "dist": "webpack"
+    "dist": "rimraf dist && webpack",
+    "prepublish:declarations": "mv dist/src/* dist/ && rimraf dist/src",
+    "prepublishOnly": "npm run dist && npm run prepublish:declarations"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
     "jasmine": "^3.1.0",
     "jasmine-core": "^3.1.0",
     "jasmine-ts": "^0.2.1",
+    "rimraf": "^2.6.2",
     "ts-loader": "^4.3.1",
     "typescript": "^2.9.1",
     "webpack": "^4.11.1",

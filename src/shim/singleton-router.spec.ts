@@ -1,5 +1,5 @@
 import {SingletonRouter} from "./singleton-router";
-import {Router} from "./router";
+import {Router} from "../router";
 
 describe(SingletonRouter.name, ()=> {
     it("can get instance", ()=> {

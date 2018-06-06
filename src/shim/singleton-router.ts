@@ -1,4 +1,4 @@
-import {Router, RoutingData} from "./router";
+import {Router, RoutingData} from "../router";
 
 export class SingletonRouter
 {
