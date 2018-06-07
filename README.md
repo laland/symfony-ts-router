@@ -26,7 +26,7 @@ lots of them
 - There is es5 UMD modules, source maps and `d.ts` declarations 
 
 
-# Instalation
+# Installation
 
 With npm:
 ```
