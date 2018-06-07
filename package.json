@@ -29,7 +29,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
