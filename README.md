@@ -25,6 +25,14 @@ lots of them
 - All original test cases are here, and they are still green
 - There is es5 UMD modules, source maps and `d.ts` declarations 
 
+
+# Instalation
+
+With npm:
+```
+npm install symfony-ts-router --save
+```
+
 # Usage
 
 ## With script tags
