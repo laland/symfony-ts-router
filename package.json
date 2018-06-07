@@ -12,7 +12,7 @@
     "fos js router"
   ],
   "main": "./dist/router.js",
-  "types": "./dist/src/router.d.ts",
+  "types": "./dist/router.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/laland/symfony-ts-router.git"

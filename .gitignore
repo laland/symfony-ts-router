@@ -6,4 +6,6 @@ node_modules/
 *.tgz
 .yarn-integrity
 .idea
+yarn.lock
+package-lock.json
 dist/
