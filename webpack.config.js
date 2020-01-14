@@ -21,7 +21,8 @@ module.exports = {
                 options: {
                     compilerOptions: {
                         sourceMap: true,
-                        declaration: true
+                        declaration: true,
+                        declarationDir: 'dist'
                     }
                 }
             }

@@ -6,7 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [1.0.5] - 2018-06-07
+## [1.0.5] - 2019-01-14
+### Fix
+- Fixed typo in CHANGELOG
+- Updated dependencies to fix security vulnerabilities
+
+## [1.0.4] - 2018-06-07
 ### Added
 - Fixed typo in README
 - CHANGELOG is now included in npm package

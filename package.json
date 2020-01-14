@@ -1,6 +1,6 @@
 {
   "name": "symfony-ts-router",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Typescript port of javascript router from FOSJsRoutingBundle",
   "keywords": [
     "symfony",
@@ -24,8 +24,7 @@
   "scripts": {
     "test": "jasmine-ts \"src/**/*.spec.ts\"",
     "dist": "rimraf dist && webpack",
-    "prepublish:declarations": "mv dist/src/* dist/ && rimraf dist/src",
-    "prepublishOnly": "npm run dist && npm run prepublish:declarations"
+    "prepublishOnly": "npm run dist"
   },
   "files": [
     "dist",
@@ -33,14 +32,13 @@
     "CHANGELOG.md"
   ],
   "devDependencies": {
-    "@types/jasmine": "^2.8.8",
-    "jasmine": "^3.1.0",
-    "jasmine-core": "^3.1.0",
-    "jasmine-ts": "^0.2.1",
-    "rimraf": "^2.6.2",
-    "ts-loader": "^4.3.1",
-    "typescript": "^2.9.1",
-    "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.2"
+    "@types/jasmine": "3.5.0",
+    "jasmine": "3.5.0",
+    "jasmine-ts": "0.2.1",
+    "rimraf": "3.0.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.4",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
   }
 }
