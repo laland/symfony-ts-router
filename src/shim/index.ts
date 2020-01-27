@@ -2,8 +2,8 @@ import {SingletonRouter} from "./singleton-router";
 
 export * from "../router";
 
-export const Routing = SingletonRouter.getInstance();
+window['Routing'] = SingletonRouter.getInstance();
 
-export const fos = {
+window['fos'] = {
     Router: SingletonRouter
 };
