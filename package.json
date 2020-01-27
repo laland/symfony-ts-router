@@ -1,6 +1,6 @@
 {
   "name": "symfony-ts-router",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Typescript port of javascript router from FOSJsRoutingBundle",
   "keywords": [
     "symfony",

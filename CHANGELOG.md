@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.6] - 2020-01-27
+### Fix
+- Fixed router shim, now it works as expected
+- Updated dependencies to fix security vulnerabilities
+
 ## [1.0.5] - 2019-01-14
 ### Fix
 - Fixed typo in CHANGELOG
