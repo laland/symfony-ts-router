@@ -144,6 +144,17 @@ describe(Router.name, ()=> {
             expect(router.generate('posts', {'_format': 'json'})).toBe('/posts.json');
         });
 
+        it("with boolean token", ()=> {
+            const router = new Router({}, {
+                posts: {
+                    tokens: [['variable', '.', '', '_format', true], ['text', '/posts']],
+                }
+            });
+
+            expect(router.generate('posts')).toBe('/posts');
+            expect(router.generate('posts', {'_format': 'json'})).toBe('/posts.json');
+        });
+
         it("with query string without defautls", ()=> {
             const router = new Router({}, {
                 posts: {
