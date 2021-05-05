@@ -296,7 +296,7 @@ export enum TokenType
     Variable = 'variable',
 }
 
-export type Token = string[]
+export type Token = (string|boolean)[]
 
 export interface ParsedToken
 {
