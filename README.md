@@ -1,3 +1,6 @@
+# Deprecated
+since https://github.com/FriendsOfSymfony/FOSJsRoutingBundle/pull/406 is merged
+
 # Description
 
 This is a Typescript port of [js router](https://github.com/FriendsOfSymfony/FOSJsRoutingBundle/blob/master/Resources/js/router.js) from [FOSJsRoutingBundle](https://github.com/FriendsOfSymfony/FOSJsRoutingBundle), 
